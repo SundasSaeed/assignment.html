@@ -1,0 +1,117 @@
+body{
+    background-color:lightgrey;
+}
+
+.container{
+    margin-top: 8rem;
+}
+    
+.heading{
+    margin-left: 8rem;
+}
+
+@media screen and (max-width:800px) {
+    .heading{
+        font-size: 80%;
+       margin-left:5.2rem ;
+    
+    }
+ } 
+
+
+@media screen and (max-width:600px) {
+    .heading{
+        font-size: 90%;
+       margin-left:5rem ;
+    
+    }
+ } 
+ 
+ @media screen and (max-width:550px) {
+    .heading{
+        font-size: 70%;
+       margin-left:5rem ;
+    
+    }
+ } 
+
+h1{
+color: blue ;
+}
+.right-box{
+    
+    padding: 2%;
+    background-color:white;
+    margin-right: 8rem;
+    margin-left: 5rem;
+    width: 400px;
+    }
+    @media screen and (max-width:800px) {
+        .right-box{
+            width:450px;
+        }
+     } 
+
+     @media screen and (max-width:600px) {
+        .right-box{
+            width:500px;
+        }
+     } 
+     
+
+     .forgot{
+        text-align: center;
+        color: blue;
+    }
+    .myButton {
+        width: 150px;
+        font-size: 15px;
+        padding: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+        text-align: center;
+        margin-left: 100px;
+        border-radius: 5px;
+        border-style: hidden;
+        background-color: rgb(0,164,0);
+    }
+
+        
+    /* .last-line{
+        border-top: none;
+        color: #1c1e21;
+        font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        padding-top: 0;
+         margin-top: 28px;
+         text-align: center;
+         color: inherit;
+         margin-left: 35rem;
+}
+
+.a {
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+} */
+
+    @media screen and (max-width:600px) {
+        .myButton{
+           width:90px;
+           font-size:10px ;
+           margin-left: 100px;
+           
+        }
+     }
+     @media screen and (max-width:450px) {
+        .myButton{
+            margin-left:60px ;
+        }
+     } 
+     @media screen and (max-width:375px) {
+        .myButton{
+            margin-left:35px ;
+        }
+     } 
